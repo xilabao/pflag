@@ -155,7 +155,7 @@ type Flag struct {
 	Usage               string              // help message
 	Value               Value               // value as set
 	DefValue            string              // default value (as text); for usage message
-        Secret              bool                // used by cobra.Command to allow flags to be secret
+	Secret              bool                // used by cobra.Command to allow flags to be secret
 	Changed             bool                // If the user set the value (or if left to default)
 	NoOptDefVal         string              // default value (as text); if the flag is on the command line without any options
 	Deprecated          string              // If this flag is deprecated, this string is the new or now thing to use
